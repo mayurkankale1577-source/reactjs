@@ -2,10 +2,6 @@
 
 // function Propss(props) {
 
-
-
-
-
 //     return (
 //         <>
 //             <h1> hellow {props.name}</h1>
