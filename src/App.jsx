@@ -11,6 +11,8 @@ import Propss from "./props/Propss"
 
 
 function App() {
+
+  const hobbys=["cricket","football","hockey"]
   return (
     <>
        <h1>App Component</h1>
@@ -19,7 +21,8 @@ function App() {
        <Func />
        <Arrayobj />
        <Conditional /> */}
-       <Propss name="mayur kankale" age={20}/>
+       <Propss name="sager"  age={20} hobbys={hobbys} />
+       
     </>
   )
 }
