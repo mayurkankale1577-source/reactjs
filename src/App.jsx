@@ -8,7 +8,7 @@ import Mayur from "./createcomponent/Mayur"
 import Styling from "./cssstyling/Styling"
 import Func from "./functoonevent/Func"
 import Propss from "./props/Propss"
-
+import State from "./statemanagement/State"
 
 function App() {
 
@@ -20,9 +20,10 @@ function App() {
        <Styling />
        <Func />
        <Arrayobj />
-       <Conditional /> */}
+       <Conditional />
        <Propss name="sager"  age={20} hobbys={hobbys} />
-       
+        */}
+        <State/>
     </>
   )
 }
