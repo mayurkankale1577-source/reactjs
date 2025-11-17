@@ -19,7 +19,7 @@ function App() {
        <Func />
        <Arrayobj />
        <Conditional /> */}
-       <Propss name="mayur kankale"/>
+       <Propss name="mayur kankale" age={20}/>
     </>
   )
 }
