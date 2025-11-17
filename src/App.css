@@ -1,0 +1,9 @@
+ .visible
+ {
+  display: block;
+ }
+
+ .unvisible
+ {
+  display: none;
+ }
