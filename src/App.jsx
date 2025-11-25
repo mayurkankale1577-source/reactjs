@@ -43,7 +43,7 @@ function App() {
   return (
     <>
        <h1>App Component</h1>
-       <Mayur />
+       {/* <Mayur />
        <Styling />
        <Func />
        <Arrayobj />
@@ -52,7 +52,7 @@ function App() {
         <State/>
         <Formhandling />
         <Todoapp />
-        <Useefect />
+        <Useefect /> */}
          
     </>
 
