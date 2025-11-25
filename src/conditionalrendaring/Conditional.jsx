@@ -1,4 +1,4 @@
-import '../app.css'
+
  
 
 
@@ -9,8 +9,8 @@ const isLogin=false
 // 1 using className
 return (
     <>
-    <div className={isLogin ? "visible" : "unvisible"}> Hello Mayur</div>
-    <div className={isLogin ? "unvisible" : "visible"}> Hello Guest</div>
+    {/* <div className={isLogin ? "visible" : "unvisible"}> Hello Mayur</div>
+    <div className={isLogin ? "unvisible" : "visible"}> Hello Guest</div> */}
   
     </>
 )
