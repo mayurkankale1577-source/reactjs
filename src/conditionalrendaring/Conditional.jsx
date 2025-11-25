@@ -1,4 +1,5 @@
 import '../app.css'
+ 
 
 
 function Conditional() {
@@ -10,6 +11,7 @@ return (
     <>
     <div className={isLogin ? "visible" : "unvisible"}> Hello Mayur</div>
     <div className={isLogin ? "unvisible" : "visible"}> Hello Guest</div>
+  
     </>
 )
 
