@@ -14,6 +14,10 @@ import Todoapp from "./todoapp/Todoapp"
 import Useefect from "./useeffecthook/Useefect"
 import Routerr from "./router/Routerr"
 import { BrowserRouter, Routes, Route, Link,useParams,useNavigate,Outlet } from "react-router-dom"
+import PropDriling from "./PropsDrilling/PropDriling"
+import StateLifting from "./PropsDrilling/StateLifting"
+import SharedStates from "./PropsDrilling/SharedStates"
+import SharingStatbetweenComponent from "./PropsDrilling/SharingStatbetweenComponent"
 
 function App() {
 
@@ -52,7 +56,11 @@ function App() {
         <State/>
         <Formhandling />
         <Todoapp />
-        <Useefect /> */}
+        <Useefect />
+        <PropDriling />
+        <StateLifting />
+        <SharedStates />
+        <SharingStatbetweenComponent /> */}
          
     </>
 
