@@ -18,7 +18,16 @@ import PropDriling from "./PropsDrilling/PropDriling"
 import StateLifting from "./PropsDrilling/StateLifting"
 import SharedStates from "./PropsDrilling/SharedStates"
 import SharingStatbetweenComponent from "./PropsDrilling/SharingStatbetweenComponent"
-
+import UseContextHook from "./useContextHook/UseContextHook"
+import UseContextTheemcolor from "./useContextHook/UseContextTheemcolor"
+import UseReducerr from "./useReducer/UseReducerr"
+import Form from "./useReducer/Form"
+import UseMemo from "./UseMemo/UseMemo"
+import WithUseMemo from "./UseMemo/WithUseMemo"
+ 
+import UseCallback from "./UseCallback/UseCallback"
+import Parent from "./UseCallback/Parent"
+ 
 function App() {
 
 //***router part functions
@@ -60,8 +69,18 @@ function App() {
         <PropDriling />
         <StateLifting />
         <SharedStates />
-        <SharingStatbetweenComponent /> */}
+        <SharingStatbetweenComponent />
+        <UseContextHook />
+        <UseContextTheemcolor />
          
+          <UseReducerr />
+          <Form />
+          <UseMemo />
+          <WithUseMemo />
+          <Parent />
+          <Routerr />
+          <UseCallback /> */}
+         <Parent />
     </>
 
  // router part start here
