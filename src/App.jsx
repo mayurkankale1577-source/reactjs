@@ -27,6 +27,17 @@ import WithUseMemo from "./UseMemo/WithUseMemo"
  
 import UseCallback from "./UseCallback/UseCallback"
 import Parent from "./UseCallback/Parent"
+import UseLayout from "./UseLayout/UseLayout"
+import Example from "./UseLayout/Example"
+import Animations from "./UseLayout/Animations"
+import Chat from "./UseLayout/Chat"
+import ToogleTest from "./CustomHook/ToogleTest"
+import User from "./CustomHook/User"
+import LoginForm from "./CustomHook/LoginForm"
+import Greeting from "./higherOrderComponent/Greeting"
+import GreetingWithStyle from "./higherOrderComponent/GreedingWithStyle"
+import PoslistWithData from "./higherOrderComponent/PostListWithData"
+import AppDashboard from "./higherOrderComponent/AppDashboard"
  
 function App() {
 
@@ -79,8 +90,19 @@ function App() {
           <WithUseMemo />
           <Parent />
           <Routerr />
-          <UseCallback /> */}
+          <UseCallback />
          <Parent />
+         <UseLayout />
+         <Example />
+          <Animations />
+          <Chat />
+          <ToogleTest />
+          <User />
+          <LoginForm />
+          <Greeting name="sager" />
+          <GreetingWithStyle  name="sager"/> */}
+          <PoslistWithData />
+          <AppDashboard />
     </>
 
  // router part start here
