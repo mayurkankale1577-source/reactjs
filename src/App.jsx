@@ -38,6 +38,8 @@ import Greeting from "./higherOrderComponent/Greeting"
 import GreetingWithStyle from "./higherOrderComponent/GreedingWithStyle"
 import PoslistWithData from "./higherOrderComponent/PostListWithData"
 import AppDashboard from "./higherOrderComponent/AppDashboard"
+import Apppost from "./LazyLoading/Apppost"
+ 
  
 function App() {
 
@@ -100,9 +102,10 @@ function App() {
           <User />
           <LoginForm />
           <Greeting name="sager" />
-          <GreetingWithStyle  name="sager"/> */}
+          <GreetingWithStyle  name="sager"/>
           <PoslistWithData />
-          <AppDashboard />
+          <AppDashboard /> */}
+           <Apppost />
     </>
 
  // router part start here
