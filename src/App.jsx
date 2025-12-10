@@ -38,7 +38,7 @@ import Greeting from "./higherOrderComponent/Greeting"
 import GreetingWithStyle from "./higherOrderComponent/GreedingWithStyle"
 import PoslistWithData from "./higherOrderComponent/PostListWithData"
 import AppDashboard from "./higherOrderComponent/AppDashboard"
-import Apppost from "./LazyLoading/Apppost"
+ 
  
  
 function App() {
@@ -68,7 +68,7 @@ function App() {
   const hobbys=["cricket","football","hockey"]
   return (
     <>
-       <h1>App Component</h1>
+       <h1>App Component @</h1>
        {/* <Mayur />
        <Styling />
        <Func />
@@ -102,10 +102,10 @@ function App() {
           <User />
           <LoginForm />
           <Greeting name="sager" />
-          <GreetingWithStyle  name="sager"/>
+          <GreetingWithStyle  name="sager"/> */}
           <PoslistWithData />
-          <AppDashboard /> */}
-           <Apppost />
+          <AppDashboard />
+           
     </>
 
  // router part start here
